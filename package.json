@@ -1,0 +1,30 @@
+{
+  "name": "@mlezcano1985/rut-formatter",
+  "version": "1.0.5",
+  "description": "Format and validate rut (Chile) number between 2 and 10 digits for browser and NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rut",
+    "chile",
+    "format",
+    "formatter"
+  ],
+  "author": {
+    "name": "Miguel Lezcano",
+    "email": "mlezcano1985@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlezcano1985/rut"
+  },
+  "bugs": {
+    "url": "https://github.com/mlezcano1985/rut/issues"
+  },
+  "homepage": "https://github.com/mlezcano1985/rut#readme",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
