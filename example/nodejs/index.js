@@ -1,4 +1,4 @@
-const rut = require('@mlezcano1985/rut-formatter');
+const rut = require('../../index');
 
 console.log('invalid: 1 =>', rut.format(1));
 console.log('valid: 11 =>', rut.format(11));

@@ -1,10 +1,12 @@
 {
   "name": "@mlezcano1985/rut-formatter",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Format and validate rut (Chile) number between 2 and 10 digits for browser and NodeJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix .",
+    "test": "jest --silent --forceExit --detectOpenHandles",
+    "coverage": "jest --coverage --silent --forceExit --detectOpenHandles"
   },
   "keywords": [
     "rut",
@@ -13,8 +15,7 @@
     "formatter"
   ],
   "author": {
-    "name": "Miguel Lezcano",
-    "email": "mlezcano1985@gmail.com"
+    "name": "Miguel Lezcano"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,12 @@
   },
   "homepage": "https://github.com/mlezcano1985/rut#readme",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.5",
+    "prettier": "^2.3.1"
+  }
 }
