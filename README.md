@@ -2,6 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/mlezcano1985/rut)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/mlezcano1985/rut?include_prereleases)
+![GitHub Workflow Status](https://github.com/mlezcano1985/rut/actions/workflows/node.js.yml/badge.svg)
 
 Format and validate rut (Chile) number between 2 and 10 digits for browser and NodeJS.
 
